@@ -1,10 +1,10 @@
 {
   "name": "couch-proxy-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates CouchDB Proxy Authentication Headers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test.js"
   },
   "keywords": [
     "couchdb",
@@ -15,5 +15,8 @@
   "author": "Clemens Stolle <klaemo@fastmail.fm>",
   "license": "MIT",
   "homepage": "https://github.com/klaemo/couch-proxy-auth",
-  "repository": "git://github.com/klaemo/couch-proxy-auth"
+  "repository": "git://github.com/klaemo/couch-proxy-auth",
+  "devDependencies": {
+    "tape": "^2.14.0"
+  }
 }

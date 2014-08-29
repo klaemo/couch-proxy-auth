@@ -1,4 +1,5 @@
 ## CouchDB Proxy Authentication Headers
+[![build status](https://secure.travis-ci.org/klaemo/couch-proxy-auth.png)](http://travis-ci.org/klaemo/couch-proxy-auth)
 
 Creates CouchDB Proxy Authentication Headers
 
